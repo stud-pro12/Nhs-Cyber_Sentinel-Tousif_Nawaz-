@@ -31,3 +31,21 @@ APIs & Libraries:
 Security:
 
 1.Passcode Auth – App access restriction
+
+Unique Features Of GUARDIANPULSE X:
+
+Real-Time Monitoring:
+Continuously tracks critical health/safety metrics (e.g., location, environment).
+
+Instant Alerts:
+Sends immediate alerts (to user and emergency contacts) if anomalies are detected.
+
+
+AI-Powered Prediction:
+Uses machine learning to predict possible risks before they happen.
+
+Guardian Network:
+Community-based safety network where nearby users can help each other in emergencies.
+
+Gamified Health/Safety Scores:
+Keeps users engaged by awarding scores, badges for maintaining safety and health routines.
