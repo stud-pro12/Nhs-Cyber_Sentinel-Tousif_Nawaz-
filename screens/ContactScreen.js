@@ -114,4 +114,4 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   deleteButtonText: { color: '#fff', fontWeight: 'bold' },
-})
+});
