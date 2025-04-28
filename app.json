@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "GuardianPulseX",
+    "slug": "GuardianPulseX",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "sdkVersion": "52.0.0",
+    "permissions": [
+      "CAMERA",
+      "AUDIO_RECORDING",
+      "LOCATION_FOREGROUND",
+      "SMS"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "GuardianPulse X needs camera access to detect distress via facial expressions.",
+        "NSMicrophoneUsageDescription": "GuardianPulse X needs microphone access to detect loud sounds for distress alerts.",
+        "NSLocationWhenInUseUsageDescription": "GuardianPulse X needs location access to send your position in an SOS alert."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow GuardianPulse X to access your camera for AR emergency features."
+        }
+      ]
+    ]
+  }
+}
