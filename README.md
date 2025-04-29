@@ -1,4 +1,4 @@
-NHS - CYBER_SENTINAL,
+Namma Suraksha Hackathon - CYBER_SENTINAL,
 
 Problem Statement: Create an app for activating distress/emergency signals to security personnel. The nearest Highway Patrols, Check Gates, Police Outpost would need to be immediately notified to report on any unlawful activity, criminal offense, accident, etc. Provision for supervision of action taken at multiple levels of the police hierarchy.(Highway Security System)
 
